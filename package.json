@@ -1,0 +1,22 @@
+{
+  "name": "with-env",
+  "version": "0.0.0",
+  "description": "Cross-platform environment var helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eightyeight/with-env.git"
+  },
+  "author": "Daniel Buckmaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eightyeight/with-env/issues"
+  },
+  "homepage": "https://github.com/eightyeight/with-env#readme",
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}
