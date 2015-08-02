@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var childProcess = require('child_process');
+var spawn = require('child_process').spawn;
 var extend = require('extend');
 
 var args = process.argv.slice(2);
@@ -30,7 +30,7 @@ envs.forEach(function (envSet) {
   env[parts[0]] = parts[1];
 });
 
-childProcess.spawn(command[0], command.slice(1), {
+spawn(command[0], command.slice(1), {
   env: extend({}, process.env, env),
   stdio: 'inherit',
 });
