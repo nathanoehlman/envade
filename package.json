@@ -1,8 +1,10 @@
 {
-  "name": "with-env",
+  "name": "envade",
   "version": "0.0.0",
   "description": "Cross-platform environment var helper",
-  "main": "index.js",
+  "bin": {
+    "envade": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
