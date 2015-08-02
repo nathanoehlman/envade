@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eightyeight/with-env.git"
+    "url": "git://github.com/eightyeight/envade.git"
   },
   "author": "Daniel Buckmaster",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eightyeight/with-env/issues"
+    "url": "https://github.com/eightyeight/envade/issues"
   },
-  "homepage": "https://github.com/eightyeight/with-env#readme",
+  "homepage": "https://github.com/eightyeight/envade#readme",
   "dependencies": {
     "extend": "^3.0.0"
   }
