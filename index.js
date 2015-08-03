@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 var spawn = require('child_process').spawn;
 var extend = require('extend');
 

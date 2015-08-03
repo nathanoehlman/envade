@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Cross-platform environment var helper",
   "bin": {
-    "envade": "index.js"
+    "envade": "./bin/envade"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
